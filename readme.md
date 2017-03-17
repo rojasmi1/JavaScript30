@@ -6,7 +6,8 @@ Starter Files + Completed solutions for the JavaScript 30 Day Challenge.
 
 Grab the course at [https://JavaScript30.com](https://JavaScript30.com)
 
-## Live URLS from my solutions
+## Live URLs of my solutions
+
 * 01 Drum Kit [http://javascript30-drump-kit-.surge.sh/]
 * 02 JS and CSS Clock [http://javascript30-clock.surge.sh/]
 
