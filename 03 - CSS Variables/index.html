@@ -22,9 +22,20 @@
 
   <style>
 
+    :root{
+      --base: #ffc600;
+      --spacing: 10px;
+      --blur: 10px;
+    }
     /*
       misc styles, nothing to do with CSS variables
     */
+
+    img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+    }
 
     body {
       text-align: center;
@@ -48,6 +59,20 @@
   </style>
 
   <script>
+  const controls = document.querySelector('.controls');
+  //Use event delegation
+  controls.addEventListener('change',function(e){
+    const name = e.target.name;
+    if(name === "spacing" || name === "blur" || name === "base"){
+    updateVariable(name,e.target.dataset.sizing,e.target.value);
+    }
+  });
+
+  function updateVariable(name,sizing,value){
+    const suffix = sizing || '';
+    document.documentElement.style.setProperty(`--${name}`,`${value}${suffix}`);
+  }
+
   </script>
 
 </body>
