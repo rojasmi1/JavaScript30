@@ -10,6 +10,7 @@ Grab the course at [https://JavaScript30.com](https://JavaScript30.com)
 
 * 01 Drum Kit [http://javascript30-drump-kit-.surge.sh/]
 * 02 JS and CSS Clock [http://javascript30-clock.surge.sh/]
+* 03 CSS Variables [http://javascript30-css-variables.surge.sh/]
 
 ## Community #JavaScript30 Content
 
