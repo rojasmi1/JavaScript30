@@ -13,6 +13,7 @@ Grab the course at [https://JavaScript30.com](https://JavaScript30.com)
 * 03 CSS Variables [http://javascript30-css-variables.surge.sh/]
 * 04 Array Cardio 1 [http://javascript30-array-cardio.surge.sh/]
 * 05 Flex Panel Gallery [http://javascript30-panel-gallery.surge.sh/]
+* 06 Type Ahead [http://javascript30-type-ahead.surge.sh/]
 
 ## Community #JavaScript30 Content
 
