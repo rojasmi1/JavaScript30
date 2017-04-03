@@ -99,6 +99,32 @@
   </div>
 
 <script>
+let shiftPressed = false;
+let lastChecked;
+
+window.addEventListener('keydown',e => {if(e.keyCode === 16) shiftPressed = true})
+window.addEventListener('keyup',e => {if(e.keyCode === 16) shiftPressed = false});
+
+const inbox = document.querySelector('.inbox');
+inbox.addEventListener('change', function(e){
+  let inBetween = false;
+  const currentCheckBox = e.srcElement;
+  if(shiftPressed & currentCheckBox.checked){
+    const checkBoxes = document.querySelectorAll('.inbox input[type="checkbox"]');
+    checkBoxes.forEach(checkbox => {
+      if(checkbox === currentCheckBox || checkbox === lastChecked){
+        inBetween = !inBetween;
+      }
+      if(inBetween){
+        checkbox.checked = true;
+      }
+    });
+  }
+
+  if(currentCheckBox.checked){
+    lastChecked = currentCheckBox;
+  }
+});
 </script>
 </body>
 </html>
