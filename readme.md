@@ -17,6 +17,7 @@ Grab the course at [https://JavaScript30.com](https://JavaScript30.com)
 * 07 Array Cardio 2 [http://javascript30-array-cardio-2.surge.sh/]
 * 08 Fun with HTML5 Canvas [http://javascript30-html5-canvas.surge.sh/]
 * 10 Hold Shift and Check Checkboxes [http://javascript30-select-checkbox-range.surge.sh]
+* 11 Custom Video Player [http://javascript30-custom-video-player.surge.sh/]
 
 ## Community #JavaScript30 Content
 
