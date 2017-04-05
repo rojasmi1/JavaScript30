@@ -18,6 +18,7 @@ Grab the course at [https://JavaScript30.com](https://JavaScript30.com)
 * 08 Fun with HTML5 Canvas [http://javascript30-html5-canvas.surge.sh/]
 * 10 Hold Shift and Check Checkboxes [http://javascript30-select-checkbox-range.surge.sh]
 * 11 Custom Video Player [http://javascript30-custom-video-player.surge.sh/]
+* 12 Key Sequence Detection [http://javascript30-konami-code.surge.sh/]
 
 ## Community #JavaScript30 Content
 
